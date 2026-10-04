@@ -60,7 +60,7 @@ The 5th International Conference and Workshop on Applied Nonlinear Analysis (**I
 
 ---
 
-## 📬 Contact Secretariat
+## 📬 Contact
 **Prof. Dr. Poom Kumam**  
 Center of Excellence in Theoretical and Computational Science (TaCS-CoE), Faculty of Science,  
 King Mongkut's University of Technology Thonburi (KMUTT),  
