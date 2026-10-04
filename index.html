@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICWANA2027 | The 5th International Conference and Workshop on Applied Nonlinear Analysis</title>
-    <link rel="icon" type="image/jpeg" href="logo.jpg">
+    <link rel="icon" type="image/jpeg" href="logo.jpeg">
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts -->
@@ -30,7 +30,6 @@
 </head>
 <body class="bg-slate-50 text-slate-800">
 
-    <!-- จุดที่จะดึงแต่ละไฟล์มาแสดงผล -->
     <div id="sec-navbar"></div>
     <div id="sec-hero"></div>
     <div id="sec-about"></div>
@@ -40,7 +39,6 @@
     <div id="sec-registration-committees"></div>
     <div id="sec-footer"></div>
 
-    <!-- สคริปต์ดึงไฟล์ HTML ย่อยมารวมกัน -->
     <script>
         const sections = [
             { id: 'sec-navbar', file: 'navbar.html' },
@@ -60,7 +58,6 @@
                     document.getElementById(sec.id).innerHTML = html;
                 })
         )).then(() => {
-            // สั่งให้ MathJax เรนเดอร์สมการ LaTeX หลังจากดึงไฟล์ทั้งหมดเสร็จ
             if (window.MathJax && MathJax.typesetPromise) {
                 MathJax.typesetPromise();
             }
