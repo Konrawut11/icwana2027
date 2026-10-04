@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICWANA2027 | The 5th International Conference and Workshop on Applied Nonlinear Analysis</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- MathJax for LaTeX support -->
+    <script>
+        MathJax = {
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(30, 58, 138, 0.85)), 
+                        url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed w-full z-50 bg-slate-900/95 backdrop-blur-sm text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-2">
+                    <span class="text-2xl font-extrabold tracking-tight text-amber-400">ICWANA<span class="text-white">2027</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-6 text-sm font-medium">
+                        <a href="#about" class="hover:text-amber-400 transition">About</a>
+                        <a href="#dates" class="hover:text-amber-400 transition">Important Dates</a>
+                        <a href="#program" class="hover:text-amber-400 transition">Program</a>
+                        <a href="#speakers" class="hover:text-amber-400 transition">Speakers</a>
+                        <a href="#abstract" class="hover:text-amber-400 transition">Abstract & Journals</a>
+                        <a href="#committees" class="hover:text-amber-400 transition">Committees</a>
+                        <a href="#contact" class="hover:text-amber-400 transition">Contact</a>
+                        <a href="#registration" class="bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold px-4 py-2 rounded-lg transition">Registration</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg min-h-screen flex items-center justify-center text-center text-white pt-16 px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="inline-block bg-amber-500/20 border border-amber-400/40 text-amber-300 px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
+                The 5th International Conference & Workshop Series
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+                International Conference and Workshop on Applied Nonlinear Analysis <span class="text-amber-400">(ICWANA2027)</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-200 mb-8 font-light">
+                <i class="fa-regular fa-calendar-days text-amber-400 mr-2"></i> July 28–31, 2027 
+                <span class="mx-3">|</span> 
+                <i class="fa-solid fa-location-dot text-amber-400 mr-2"></i> Pattaya Beach, Chonburi, Thailand
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#registration" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-8 py-4 rounded-xl text-lg shadow-lg transition transform hover:-translate-y-0.5">
+                    Register Now
+                </a>
+                <a href="#abstract" class="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-8 py-4 rounded-xl text-lg backdrop-blur-sm transition">
+                    Submit Abstract
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About & History Section -->
+    <section id="about" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold text-slate-900 mb-4 border-l-4 border-amber-500 pl-4">About ICWANA2027</h2>
+                <p class="text-slate-600 mb-4 leading-relaxed">
+                    The 5th International Conference and Workshop on Applied Nonlinear Analysis (<strong>ICWANA2027</strong>) aims to bring together leading experts, researchers, and young scholars in the field of nonlinear analysis, with a particular focus on fixed point theory, variational inequalities, optimization, and their applications.
+                </p>
+                <p class="text-slate-600 mb-6 leading-relaxed">
+                    Our goal is to explore and evaluate the latest developments, innovative ideas, and advanced methodologies in this vital and dynamic field. Special attention will be given to applications in related areas, including the natural sciences, medicine, data science, economics, and engineering.
+                </p>
+                <div class="bg-blue-50 border border-blue-100 rounded-xl p-5">
+                    <h3 class="font-bold text-blue-950 mb-2"><i class="fa-solid fa-bullseye text-blue-600 mr-2"></i>Key Research Topics</h3>
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-slate-700">
+                        <li>• Fixed Point Theory & Applications</li>
+                        <li>• Variational Inequalities & Optimization</li>
+                        <li>• Nonlinear Differential Equations</li>
+                        <li>• Numerical & Iterative Algorithms</li>
+                        <li>• Analysis on Manifolds</li>
+                        <li>• Machine Learning & Data Science Applications</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Previous Meetings Timeline -->
+            <div class="bg-white p-8 rounded-2xl shadow-md border border-slate-100">
+                <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center">
+                    <i class="fa-solid fa-clock-rotate-left text-amber-500 mr-3"></i> Previous Successful Meetings
+                </h3>
+                <div class="space-y-6 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+                    <div class="relative flex items-center justify-between">
+                        <div class="ml-10">
+                            <span class="text-xs font-bold uppercase px-2 py-0.5 bg-slate-200 text-slate-700 rounded">1st Meeting</span>
+                            <h4 class="font-bold text-slate-800 mt-1">IWNAA 2018 — Granada, Spain</h4>
+                            <p class="text-sm text-slate-500">The inaugural workshop setting the foundation for our international research network.</p>
+                        </div>
+                    </div>
+                    <div class="relative flex items-center justify-between">
+                        <div class="ml-10">
+                            <span class="text-xs font-bold uppercase px-2 py-0.5 bg-slate-200 text-slate-700 rounded">2nd Meeting</span>
+                            <h4 class="font-bold text-slate-800 mt-1">IWANA 2019 — Bangsaen, Thailand</h4>
+                            <p class="text-sm text-slate-500">Expanding collaboration across Asia and Europe in applied nonlinear analysis.</p>
+                        </div>
+                    </div>
+                    <div class="relative flex items-center justify-between">
+                        <div class="ml-10">
+                            <span class="text-xs font-bold uppercase px-2 py-0.5 bg-slate-200 text-slate-700 rounded">3rd Meeting</span>
+                            <h4 class="font-bold text-slate-800 mt-1">IWANA 2022 — Bangsaen, Thailand</h4>
+                            <p class="text-sm text-slate-500">Building momentum with hybrid participation and emerging optimization themes.</p>
+                        </div>
+                    </div>
+                    <div class="relative flex items-center justify-between">
+                        <div class="ml-10">
+                            <span class="text-xs font-bold uppercase px-2 py-0.5 bg-blue-100 text-blue-800 rounded">4th Meeting</span>
+                            <h4 class="font-bold text-slate-800 mt-1">ICWANA 2024 — Bangsaen, Chonburi, Thailand</h4>
+                            <p class="text-sm text-slate-500">Transitioned to a full International Conference & Workshop (August 6–8, 2024).</p>
+                        </div>
+                    </div>
+                    <div class="relative flex items-center justify-between">
+                        <div class="ml-10">
+                            <span class="text-xs font-bold uppercase px-2 py-0.5 bg-amber-400 text-slate-950 rounded">5th Meeting (Upcoming)</span>
+                            <h4 class="font-bold text-blue-900 mt-1">ICWANA 2027 — Pattaya Beach, Thailand</h4>
+                            <p class="text-sm text-slate-600">July 28–31, 2027 | Featuring RISE 5.0 x Erasmus+ EU Meeting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Dates & Draft Program -->
+    <section id="dates" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Important Dates -->
+                <div>
+                    <h2 class="text-3xl font-bold mb-8 border-l-4 border-amber-400 pl-4">Important Dates</h2>
+                    <div class="space-y-4">
+                        <div class="bg-slate-800/80 border border-slate-700 p-5 rounded-xl flex justify-between items-center">
+                            <div>
+                                <h4 class="font-semibold text-amber-400">Abstract Submission Deadline</h4>
+                                <p class="text-sm text-slate-400">Submit via LaTeX template</p>
+                            </div>
+                            <span class="font-bold text-lg bg-slate-700 px-4 py-2 rounded-lg">May 31, 2027</span>
+                        </div>
+                        <div class="bg-slate-800/80 border border-slate-700 p-5 rounded-xl flex justify-between items-center">
+                            <div>
+                                <h4 class="font-semibold text-amber-400">Notification of Acceptance</h4>
+                                <p class="text-sm text-slate-400">Sent via registered email</p>
+                            </div>
+                            <span class="font-bold text-lg bg-slate-700 px-4 py-2 rounded-lg">June 20, 2027</span>
+                        </div>
+                        <div class="bg-slate-800/80 border border-slate-700 p-5 rounded-xl flex justify-between items-center">
+                            <div>
+                                <h4 class="font-semibold text-amber-400">Early Bird Registration</h4>
+                                <p class="text-sm text-slate-400">Discounted registration rate</p>
+                            </div>
+                            <span class="font-bold text-lg bg-slate-700 px-4 py-2 rounded-lg">June 30, 2027</span>
+                        </div>
+                        <div class="bg-amber-500 text-slate-950 p-5 rounded-xl flex justify-between items-center font-bold">
+                            <div>
+                                <h4 class="text-lg">Conference Dates</h4>
+                                <p class="text-sm text-slate-800">Pattaya Beach, Chonburi, Thailand</p>
+                            </div>
+                            <span class="text-lg bg-slate-950 text-amber-400 px-4 py-2 rounded-lg">July 28–31, 2027</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Draft Program -->
+                <div id="program">
+                    <h2 class="text-3xl font-bold mb-8 border-l-4 border-amber-400 pl-4">Tentative Program</h2>
+                    <div class="bg-slate-800/60 border border-slate-700 rounded-2xl overflow-hidden">
+                        <div class="p-5 border-b border-slate-700 flex items-start gap-4">
+                            <div class="bg-amber-500 text-slate-950 font-bold px-3 py-2 rounded-lg text-center min-w-[90px]">
+                                Jul 28<br><span class="text-xs font-normal">Day 1</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Pre-Registration & Welcome Reception</h4>
+                                <p class="text-slate-300 text-sm mt-1">15:00 – 17:00 PM: Registration desk open & conference kit collection.</p>
+                            </div>
+                        </div>
+                        <div class="p-5 border-b border-slate-700 flex items-start gap-4">
+                            <div class="bg-amber-500 text-slate-950 font-bold px-3 py-2 rounded-lg text-center min-w-[90px]">
+                                Jul 29<br><span class="text-xs font-normal">Day 2</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Opening Ceremony & Full Conference Day 1</h4>
+                                <p class="text-slate-300 text-sm mt-1">Plenary lectures, invited talks, and parallel contributed sessions.</p>
+                            </div>
+                        </div>
+                        <div class="p-5 border-b border-slate-700 flex items-start gap-4">
+                            <div class="bg-amber-500 text-slate-950 font-bold px-3 py-2 rounded-lg text-center min-w-[90px]">
+                                Jul 30<br><span class="text-xs font-normal">Day 3</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Full Conference Day 2 & Special EU Session</h4>
+                                <p class="text-slate-300 text-sm mt-1">Morning parallel sessions. Afternoon: <strong>RISE 5.0 x Erasmus+ EU Meeting</strong> & Banquet Dinner.</p>
+                            </div>
+                        </div>
+                        <div class="p-5 flex items-start gap-4">
+                            <div class="bg-amber-500 text-slate-950 font-bold px-3 py-2 rounded-lg text-center min-w-[90px]">
+                                Jul 31<br><span class="text-xs font-normal">Day 4</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Academic Discussion & Cultural Excursion</h4>
+                                <p class="text-slate-300 text-sm mt-1">Networking excursion around Pattaya Beach & Chonburi landmarks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl font-bold text-slate-900 mb-4">Plenary & Invited Speakers</h2>
+            <p class="text-slate-600">Distinguished researchers from our global Working Group on Applied Nonlinear Analysis (WG-ANA) network.</p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Speaker Card Placeholder 1 -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 text-center hover:shadow-md transition">
+                <div class="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-400 text-3xl">
+                    <i class="fa-solid fa-user-tie"></i>
+                </div>
+                <h3 class="font-bold text-slate-900 text-lg">Keynote Speaker TBA</h3>
+                <p class="text-sm text-blue-700 font-medium mt-1">University / Institute</p>
+                <p class="text-xs text-slate-500 mt-2">Plenary Lecture</p>
+            </div>
+            <!-- Speaker Card Placeholder 2 -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 text-center hover:shadow-md transition">
+                <div class="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-400 text-3xl">
+                    <i class="fa-solid fa-user-tie"></i>
+                </div>
+                <h3 class="font-bold text-slate-900 text-lg">Keynote Speaker TBA</h3>
+                <p class="text-sm text-blue-700 font-medium mt-1">University / Institute</p>
+                <p class="text-xs text-slate-500 mt-2">Plenary Lecture</p>
+            </div>
+            <!-- Speaker Card Placeholder 3 -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 text-center hover:shadow-md transition">
+                <div class="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-400 text-3xl">
+                    <i class="fa-solid fa-user-tie"></i>
+                </div>
+                <h3 class="font-bold text-slate-900 text-lg">Invited Speaker TBA</h3>
+                <p class="text-sm text-blue-700 font-medium mt-1">University / Institute</p>
+                <p class="text-xs text-slate-500 mt-2">Invited Talk</p>
+            </div>
+            <!-- Speaker Card Placeholder 4 -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 text-center hover:shadow-md transition">
+                <div class="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-400 text-3xl">
+                    <i class="fa-solid fa-user-tie"></i>
+                </div>
+                <h3 class="font-bold text-slate-900 text-lg">Invited Speaker TBA</h3>
+                <p class="text-sm text-blue-700 font-medium mt-1">University / Institute</p>
+                <p class="text-xs text-slate-500 mt-2">Invited Talk</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Abstract & Special Issue Journals (From ICWANA2024) -->
+    <section id="abstract" class="py-20 bg-blue-50/60 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Abstract Submission Guidelines -->
+                <div>
+                    <h2 class="text-3xl font-bold text-slate-900 mb-6 border-l-4 border-blue-700 pl-4">Abstract Submission</h2>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Participants wishing to present a talk or poster at <strong>ICWANA2027</strong> are invited to follow the author guidelines below:
+                        </p>
+                        <ol class="list-decimal list-inside space-y-3 text-sm text-slate-700">
+                            <li>Download the official <strong>LaTeX Template</strong> for the talk abstract.</li>
+                            <li>Complete your talk title, author list, affiliations, presenting author's email, supporting agencies, and references.</li>
+                            <li>Submit both the <code>.tex</code> and compiled <code>.pdf</code> files via our online submission form or email to <a href="mailto:iwana2022bangkok@gmail.com" class="text-blue-600 font-semibold underline">iwana2022bangkok@gmail.com</a>.</li>
+                        </ol>
+                        <div class="pt-4 flex flex-wrap gap-3">
+                            <a href="#" class="inline-flex items-center bg-slate-900 hover:bg-slate-800 text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition">
+                                <i class="fa-solid fa-file-code mr-2"></i> Download LaTeX Template
+                            </a>
+                            <a href="#" class="inline-flex items-center bg-blue-700 hover:bg-blue-800 text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition">
+                                <i class="fa-solid fa-cloud-arrow-up mr-2"></i> Submit Abstract Online
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Special Issue Journals -->
+                <div>
+                    <h2 class="text-3xl font-bold text-slate-900 mb-6 border-l-4 border-blue-700 pl-4">Publications & Special Issues</h2>
+                    <p class="text-slate-600 text-sm mb-4">
+                        Selected high-quality papers presented at ICWANA2027 will be invited for submission to special issues in peer-reviewed international journals (indexed in Web of Science / SCOPUS / MathSciNet):
+                    </p>
+                    <div class="space-y-3">
+                        <a href="https://thaijmath2.in.cmu.ac.th/index.php/thaijmath" target="_blank" class="block bg-white p-4 rounded-xl border border-slate-200 hover:border-blue-500 transition shadow-sm">
+                            <div class="flex justify-between items-center">
+                                <h4 class="font-bold text-slate-900">Thai Journal of Mathematics (TJM)</h4>
+                                <span class="text-xs font-bold bg-green-100 text-green-800 px-2.5 py-1 rounded">ESCI WoS / SCOPUS</span>
+                            </div>
+                            <p class="text-xs text-slate-500 mt-1">https://thaijmath2.in.cmu.ac.th/index.php/thaijmath</p>
+                        </a>
+
+                        <a href="https://bangmodjmcs.com/index.php/bangmodmcs/index" target="_blank" class="block bg-white p-4 rounded-xl border border-slate-200 hover:border-blue-500 transition shadow-sm">
+                            <div class="flex justify-between items-center">
+                                <h4 class="font-bold text-slate-900">Bangmod Int. J. of Math. & Comp. Science (Bangmod J-MCS)</h4>
+                                <span class="text-xs font-bold bg-blue-100 text-blue-800 px-2.5 py-1 rounded">SCOPUS (ISSN: 2408-154X)</span>
+                            </div>
+                            <p class="text-xs text-slate-500 mt-1">https://bangmodjmcs.com/index.php/bangmodmcs/index</p>
+                        </a>
+
+                        <a href="https://ph03.tci-thaijo.org/index.php/jnao" target="_blank" class="block bg-white p-4 rounded-xl border border-slate-200 hover:border-blue-500 transition shadow-sm">
+                            <div class="flex justify-between items-center">
+                                <h4 class="font-bold text-slate-900">Journal of Nonlinear Analysis and Optimization (JNAO)</h4>
+                                <span class="text-xs font-bold bg-purple-100 text-purple-800 px-2.5 py-1 rounded">MathSciNet / TCI / zbMATH</span>
+                            </div>
+                            <p class="text-xs text-slate-500 mt-1">https://ph03.tci-thaijo.org/index.php/jnao</p>
+                        </a>
+
+                        <a href="https://ncao.design.blog/" target="_blank" class="block bg-white p-4 rounded-xl border border-slate-200 hover:border-blue-500 transition shadow-sm">
+                            <div class="flex justify-between items-center">
+                                <h4 class="font-bold text-slate-900">Nonlinear Convex Analysis and Optimization (NCAO)</h4>
+                                <span class="text-xs font-bold bg-amber-100 text-amber-800 px-2.5 py-1 rounded">International Journal</span>
+                            </div>
+                            <p class="text-xs text-slate-500 mt-1">https://ncao.design.blog/</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration & Committees -->
+    <section id="registration" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-gradient-to-r from-blue-900 to-slate-900 rounded-3xl p-8 md:p-12 text-white shadow-xl mb-20">
+            <div class="grid md:grid-cols-3 gap-8 items-center">
+                <div class="md:col-span-2">
+                    <h2 class="text-3xl font-bold mb-4">Registration Information</h2>
+                    <p class="text-slate-300 mb-6 leading-relaxed">
+                        Registration covers access to all conference sessions, conference materials, book of abstracts, coffee breaks, lunches, welcome reception, banquet dinner, and the cultural excursion in Pattaya.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-6 py-3 rounded-xl transition">
+                            Online Registration Form (Google Form)
+                        </a>
+                        <a href="#contact" class="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-xl transition">
+                            Payment & Invoice Inquiry
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
+                    <h4 class="font-bold text-amber-400 uppercase text-xs tracking-wider mb-3">Registration Categories</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex justify-between border-b border-white/10 pb-2">
+                            <span>International Participant</span>
+                            <span class="font-bold">TBA (USD)</span>
+                        </li>
+                        <li class="flex justify-between border-b border-white/10 pb-2">
+                            <span>International Student</span>
+                            <span class="font-bold">TBA (USD)</span>
+                        </li>
+                        <li class="flex justify-between border-b border-white/10 pb-2">
+                            <span>Local Participant (Thai)</span>
+                            <span class="font-bold">TBA (THB)</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Local Student</span>
+                            <span class="font-bold">TBA (THB)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Committees Section -->
+        <div id="committees" class="grid md:grid-cols-2 gap-12">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-amber-500 pl-3">Scientific Committee</h3>
+                <p class="text-sm text-slate-500 mb-4">Guided by The International Working Group on Applied Nonlinear Analysis (WG-ANA):</p>
+                <ul class="space-y-2 text-slate-700 text-sm">
+                    <li>• <strong>Prof. Dr. Poom Kumam</strong> — KMUTT, Thailand (Chair)</li>
+                    <li>• <strong>International Scientific Board Members</strong> — WG-ANA Network</li>
+                    <li>• <em>(Full list of Scientific Committee members can be updated here)</em></li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-blue-600 pl-3">Organizing Committee & Partners</h3>
+                <p class="text-sm text-slate-500 mb-4">Hosted in collaboration with leading research centers:</p>
+                <ul class="space-y-2 text-slate-700 text-sm">
+                    <li>• <strong>Center of Excellence in Theoretical and Computational Science (TaCS-CoE)</strong>, KMUTT, Thailand</li>
+                    <li>• <strong>CaRe Network</strong> (ศูนย์เครือข่ายวิจัยนานาชาติ)</li>
+                    <li>• <strong>Working Group on Applied Nonlinear Analysis (WG-ANA)</strong></li>
+                    <li>• <em>(Local organizing committee members can be listed here)</em></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & Contact (From ICWANA2024) -->
+    <footer id="contact" class="bg-slate-950 text-slate-400 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-10">
+            <div>
+                <span class="text-2xl font-extrabold text-amber-400">ICWANA<span class="text-white">2027</span></span>
+                <p class="text-sm mt-3 leading-relaxed">
+                    The 5th International Conference and Workshop on Applied Nonlinear Analysis.<br>
+                    July 28–31, 2027 | Pattaya Beach, Chonburi, Thailand.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-3">Contact Secretariat</h4>
+                <p class="text-sm leading-relaxed">
+                    <strong>Prof. Dr. Poom Kumam</strong><br>
+                    Center of Excellence in Theoretical and Computational Science (TaCS-CoE), Faculty of Science,<br>
+                    King Mongkut's University of Technology Thonburi (KMUTT),<br>
+                    126 Pracha-Uthit Road, Bang Mod, Thung Khru, Bangkok 10140, Thailand
+                </p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-3">Inquiries & Links</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><i class="fa-regular fa-envelope text-amber-400 mr-2"></i> <a href="mailto:iwana2022bangkok@gmail.com" class="hover:text-white">iwana2022bangkok@gmail.com</a></li>
+                    <li><i class="fa-solid fa-phone text-amber-400 mr-2"></i> (+66) 2470-8994</li>
+                    <li><i class="fa-solid fa-globe text-amber-400 mr-2"></i> <a href="https://wganacom.wordpress.com/" target="_blank" class="hover:text-white">WG-ANA Official Website</a></li>
+                    <li><i class="fa-solid fa-clock-rotate-left text-amber-400 mr-2"></i> <a href="https://icwana2024.wordpress.com/" target="_blank" class="hover:text-white">ICWANA2024 Archive</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+            © 2027 ICWANA2027 — Working Group on Applied Nonlinear Analysis (WG-ANA) & TaCS-CoE, KMUTT. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
