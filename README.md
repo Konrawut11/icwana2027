@@ -5,7 +5,7 @@
   **The 5th International Conference and Workshop on Applied Nonlinear Analysis**  
   📅 **July 28–31, 2027** | 📍 **Pattaya Beach, Chonburi, Thailand**
 
-  🌐 **Official Website:** [https://konrawut11.github.io/icwana2027/](https://konrawut11.github.io/icwana2027/)
+  🌐 **Official Website:** [https://icwana2027.github.io/](https://icwana2027.github.io/)
 </div>
 
 ---
@@ -35,10 +35,11 @@ The 5th International Conference and Workshop on Applied Nonlinear Analysis (**I
 | `about.html` | **เกี่ยวกับงาน & ประวัติงาน (About)** | รายละเอียดงาน, หัวข้อวิจัย (Key Research Topics) และไทม์ไลน์การจัดงานครั้งที่ 1–5 |
 | `dates-program.html` | **วันสำคัญ & กำหนดการ (Dates & Program)** | กำหนดการส่งบทคัดย่อ/ลงทะเบียน (Important Dates) และตารางกิจกรรมทั้ง 4 วัน (Tentative Program) |
 | `speakers.html` | **วิทยากรรับเชิญ (Speakers)** | รายชื่อ รูปภาพ และสังกัดของ Plenary Speakers และ Invited Speakers |
-| `abstract-journals.html` | **การส่งบทคัดย่อ & วารสาร (Abstract & Journals)** | ขั้นตอนการส่ง Abstract, ลิงก์ดาวน์โหลด LaTeX Template และรายชื่อวารสาร Special Issues (TJM, Bangmod J-MCS, JNAO, NCAO) |
-| `registration-committees.html` | **การลงทะเบียน & คณะกรรมการ** | ลิงก์ Google Form ลงทะเบียน, อัตราค่าลงทะเบียน และรายชื่อกรรมการ (Scientific & Organizing Committees) |
-| `footer.html` | **ส่วนท้ายเว็บ (Footer & Contact)** | ที่อยู่ติดต่อเลขานุการงานประชุม (TaCS-CoE, KMUTT), อีเมล, เบอร์โทรศัพท์ และลิงก์ที่เกี่ยวข้อง |
+| `abstract-journals.html` *(หรือ `abstract.html` & `journals.html`)* | **การส่งบทคัดย่อ & วารสาร (Abstract & Journals)** | ขั้นตอนการส่ง Abstract, ลิงก์ดาวน์โหลด LaTeX Template และรายชื่อวารสาร Special Issues (Bangmod J-MCS, NCAO) |
+| `registration-committees.html` | **การลงทะเบียน & คณะกรรมการ** | ลิงก์ Google Form ลงทะเบียน, อัตราค่าลงทะเบียน และรายชื่อกรรมการ (Scientific, Organizing, Co-Chair & Technical Committee Secretary) |
+| `footer.html` | **ส่วนท้ายเว็บ & ผู้สนับสนุน (Footer, Sponsors & Contact)** | โลโก้ผู้สนับสนุน (RISE 5.0, Erasmus+ EU), ที่อยู่ติดต่อเลขานุการงานประชุม (TaCS-CoE, KMUTT), อีเมล, เบอร์โทรศัพท์ และลิงก์ที่เกี่ยวข้อง |
 | `logo.jpeg` | **ไฟล์รูปโลโก้งาน** | รูปภาพโลโก้หลักของงาน ICWANA2027 |
+| `riselogo.webp` & `erasmus.webp` | **ไฟล์รูปโลโก้ผู้สนับสนุน** | รูปโลโก้โครงการ RISE 5.0 และ Erasmus+ Programme of the European Union |
 
 ---
 
@@ -47,7 +48,15 @@ The 5th International Conference and Workshop on Applied Nonlinear Analysis (**I
 2. กดไอคอน **รูปดินสอ (Edit this file)** ที่มุมขวาบน
 3. แก้ไขข้อความ ลิงก์ หรือข้อมูลตามต้องการ (สามารถพิมพ์สมการคณิตศาสตร์ LaTeX ด้วยเครื่องหมาย `$...$` หรือ `$$...$$` ได้ในทุกไฟล์)
 4. กดปุ่มสีเขียว **`Commit changes...`** มุมขวาบน
-5. รอประมาณ 1–2 นาที เว็บไซต์ที่ [https://konrawut11.github.io/icwana2027/](https://konrawut11.github.io/icwana2027/) จะอัปเดตข้อมูลใหม่อัตโนมัติ
+5. รอประมาณ 1–2 นาที เว็บไซต์ที่ [https://icwana2027.github.io/](https://icwana2027.github.io/) จะอัปเดตข้อมูลใหม่อัตโนมัติ
+
+---
+
+## 🤝 Sponsors & Partners
+<div align="center">
+  <img src="riselogo.webp" alt="RISE 5.0" height="80" style="margin-right: 24px;" />
+  <img src="erasmus.webp" alt="Co-funded by the Erasmus+ Programme of the European Union" height="80" />
+</div>
 
 ---
 
