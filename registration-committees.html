@@ -1,115 +1,308 @@
-<section id="about" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <!-- Special Dedicated Banner for Prof. Somyot Pubtieng -->
-    <div class="mb-12 bg-gradient-to-r from-amber-500 via-amber-400 to-blue-900 rounded-2xl p-1 shadow-md">
-        <div class="bg-white rounded-[14px] p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
-            <div class="flex items-center space-x-4">
-                <div class="w-16 h-16 bg-amber-100 rounded-2xl flex items-center justify-center text-amber-600 text-3xl shrink-0 shadow-inner">
-                    <i class="fa-solid fa-award"></i>
-                </div>
-                <div>
-                    <span class="inline-block text-xs font-bold uppercase tracking-wider px-2.5 py-0.5 bg-amber-100 text-amber-800 rounded-md mb-1">Special Dedication</span>
-                    <h3 class="text-xl md:text-2xl font-bold text-slate-900">Celebrating the 65th Birthday of Prof. Somyot Pubtieng</h3>
-                    <p class="text-sm text-slate-600 mt-0.5">Honoring his lifelong academic contributions, leadership, and dedication to the field of Applied Nonlinear Analysis.</p>
+<section id="registration" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Registration Box -->
+    <div class="bg-gradient-to-r from-blue-900 to-slate-900 rounded-3xl p-8 md:p-12 text-white shadow-xl mb-20">
+        <div class="grid md:grid-cols-3 gap-8 items-center">
+            <div class="md:col-span-2">
+                <h2 class="text-3xl font-bold mb-4">Registration Information</h2>
+                <p class="text-slate-300 mb-6 leading-relaxed">
+                    Registration covers access to all conference sessions, conference materials, book of abstracts, coffee breaks, lunches, welcome reception, banquet dinner, and the cultural excursion in Pattaya.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-6 py-3 rounded-xl transition">
+                        Online Registration Form (Google Form)
+                    </a>
+                    <a href="#contact" class="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-xl transition">
+                        Payment & Invoice Inquiry
+                    </a>
                 </div>
             </div>
-            <div class="shrink-0">
-                <span class="inline-flex items-center justify-center px-4 py-2 bg-blue-900 text-white text-xs font-bold rounded-xl shadow">
-                    ICWANA 2027 Special Session
-                </span>
+            <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
+                <h4 class="font-bold text-amber-400 uppercase text-xs tracking-wider mb-3">Registration Categories</h4>
+                <ul class="space-y-3 text-sm">
+                    <li class="flex justify-between border-b border-white/10 pb-2">
+                        <span>International Participant</span>
+                        <span class="font-bold">TBA (USD)</span>
+                    </li>
+                    <li class="flex justify-between border-b border-white/10 pb-2">
+                        <span>International Student</span>
+                        <span class="font-bold">TBA (USD)</span>
+                    </li>
+                    <li class="flex justify-between border-b border-white/10 pb-2">
+                        <span>Local Participant (Thai)</span>
+                        <span class="font-bold">TBA (THB)</span>
+                    </li>
+                    <li class="flex justify-between">
+                        <span>Local Student</span>
+                        <span class="font-bold">TBA (THB)</span>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
 
-    <div class="grid md:grid-cols-2 gap-12 items-start">
-        <!-- ฝั่งซ้าย: About ICWANA2027 -->
-        <div>
-            <h2 class="text-3xl font-bold text-slate-900 mb-4 border-l-4 border-amber-500 pl-4">About ICWANA2027</h2>
-            <p class="text-slate-600 mb-4 leading-relaxed">
-                The 5th International Conference and Workshop on Applied Nonlinear Analysis (<strong>ICWANA2027</strong>) aims to bring together leading experts, researchers, and young scholars in the field of nonlinear analysis, with a particular focus on fixed point theory, variational inequalities, optimization, and their applications.
-            </p>
-            <p class="text-slate-600 mb-6 leading-relaxed">
-                Our goal is to explore and evaluate the latest developments, innovative ideas, and advanced methodologies in this vital and dynamic field. Special attention will be given to applications in related areas, including the natural sciences, medicine, data science, economics, and engineering.
-            </p>
-            <div class="bg-blue-50 border border-blue-100 rounded-xl p-5">
-                <h3 class="font-bold text-blue-950 mb-3"><i class="fa-solid fa-bullseye text-blue-600 mr-2"></i>Key Research Topics</h3>
-                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-sm text-slate-700">
-                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>Fixed Point Theory & Applications</li>
-                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>Variational Inequalities & Optimization</li>
-                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>Nonlinear Differential Equations</li>
-                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>Numerical & Iterative Algorithms</li>
-                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>Analysis on Manifolds</li>
-                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>Machine Learning & Data Science</li>
-                </ul>
+    <!-- Committees Section -->
+    <div id="committees" class="space-y-12">
+        <!-- Scientific Committee -->
+        <div class="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-slate-200">
+            <h3 class="text-2xl font-bold text-slate-900 mb-2 border-l-4 border-amber-500 pl-3">Scientific Committee</h3>
+            <p class="text-sm text-slate-500 mb-8">The group’s activities are guided by the International Scientific Committee and its Chair:</p>
+            
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 text-sm">
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Nutefe Kwami Agbeko</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Institute of Mathematics, University of Miskolc, Hungary</p>
+                    <a href="mailto:matagbek@uni-miskolc.hu" class="text-blue-600 hover:underline text-xs">matagbek@uni-miskolc.hu</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Shigeo Akashi</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Tokyo University of Science, Japan</p>
+                    <a href="mailto:akashi@is.noda.tus.ac.jp" class="text-blue-600 hover:underline text-xs">akashi@is.noda.tus.ac.jp</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Vasil Angelov</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">University of Mining and Geology, Bulgaria</p>
+                    <a href="mailto:angelov@mgu.bg" class="text-blue-600 hover:underline text-xs">angelov@mgu.bg</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Vasile Berinde</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Universitatea de Nord din Baia Mare, Romania</p>
+                    <a href="mailto:vberinde@cunbm.utcluj.ro" class="text-blue-600 hover:underline text-xs">vberinde@cunbm.utcluj.ro</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Janusz Brzdek</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Pedagogical University of Cracow, Poland</p>
+                    <a href="mailto:jbrzdek@up.krakow.pl" class="text-blue-600 hover:underline text-xs">jbrzdek@up.krakow.pl</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Theodore Burton</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Northwest Research Institute, USA</p>
+                    <a href="mailto:taburton@olypen.com" class="text-blue-600 hover:underline text-xs">taburton@olypen.com</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Jinde Cao</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Southeast University, China</p>
+                    <a href="mailto:jdcao@seu.edu.cn" class="text-blue-600 hover:underline text-xs">jdcao@seu.edu.cn</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Yeol Je Cho</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Gyeongsang National University, Korea</p>
+                    <a href="mailto:yjchomath@gmail.com" class="text-blue-600 hover:underline text-xs">yjchomath@gmail.com</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Dragan Djordjevic</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">University of Nis, Serbia</p>
+                    <a href="mailto:dragandjordjevic70@gmail.com" class="text-blue-600 hover:underline text-xs">dragandjordjevic70@gmail.com</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Tomás Domínguez Benavides</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Universidad de Sevilla, Spain</p>
+                    <a href="mailto:tomasd@us.es" class="text-blue-600 hover:underline text-xs">tomasd@us.es</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Wei-Shih Du</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">National Kaohsiung Normal University, Taiwan</p>
+                    <a href="mailto:wsdu@mail.nknu.edu.tw" class="text-blue-600 hover:underline text-xs">wsdu@mail.nknu.edu.tw</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Inci M. Erhan</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Atilim University, Turkey</p>
+                    <a href="mailto:inci.erhan@atilim.edu.tr" class="text-blue-600 hover:underline text-xs">inci.erhan@atilim.edu.tr</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Marlene Frigon</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Université de Montréal, Canada</p>
+                    <a href="mailto:frigon@dms.umontreal.ca" class="text-blue-600 hover:underline text-xs">frigon@dms.umontreal.ca</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">C. Masood Khalique</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">North-West University, South Africa</p>
+                    <a href="mailto:Masood.Khalique@nwu.ac.za" class="text-blue-600 hover:underline text-xs">Masood.Khalique@nwu.ac.za</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Jong Kyu Kim</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Kyungnam University, South Korea</p>
+                    <a href="mailto:jongkyuk@kyungnam.ac.kr" class="text-blue-600 hover:underline text-xs">jongkyuk@kyungnam.ac.kr</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Yasunori Kimura</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Toho University, Japan</p>
+                    <a href="mailto:yasunori@is.sci.toho-u.ac.jp" class="text-blue-600 hover:underline text-xs">yasunori@is.sci.toho-u.ac.jp</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-amber-50/70 border border-amber-200">
+                    <h4 class="font-bold text-slate-900">Poom Kumam</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">King Mongkut’s University of Technology Thonburi, Thailand</p>
+                    <a href="mailto:poom.kumam@mail.kmutt.ac.th" class="text-blue-600 hover:underline text-xs">poom.kumam@mail.kmutt.ac.th</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Anthony To-Ming Lau</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">University of Alberta, Canada</p>
+                    <a href="mailto:anthonyt@ualberta.ca" class="text-blue-600 hover:underline text-xs">anthonyt@ualberta.ca</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Giuseppe Marino</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Università della Calabria, Italy</p>
+                    <a href="mailto:giuseppe.marino@unical.it" class="text-blue-600 hover:underline text-xs">giuseppe.marino@unical.it</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Juan Martínez-Moreno</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Universidad de Jaén, Spain</p>
+                    <a href="mailto:jmmoreno@ujaen.es" class="text-blue-600 hover:underline text-xs">jmmoreno@ujaen.es</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Narin Petrot</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Naresuan University, Thailand</p>
+                    <a href="mailto:narinp@nu.ac.th" class="text-blue-600 hover:underline text-xs">narinp@nu.ac.th</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Adrian Petruşel</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Babeş-Bolyai University, Romania</p>
+                    <a href="mailto:petrusel@math.ubbcluj.ro" class="text-blue-600 hover:underline text-xs">petrusel@math.ubbcluj.ro</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Ariana Pitea</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Polytechnic University of Bucharest, Romania</p>
+                    <a href="mailto:arianapitea@yahoo.com" class="text-blue-600 hover:underline text-xs">arianapitea@yahoo.com</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Ramachandra Raja</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Alagappa University, India</p>
+                    <a href="mailto:rajarchm2012@gmail.com" class="text-blue-600 hover:underline text-xs">rajarchm2012@gmail.com</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Vladimir Rakocevic</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">University of Nis, Serbia</p>
+                    <a href="mailto:vrakoc@sbb.rs" class="text-blue-600 hover:underline text-xs">vrakoc@sbb.rs</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Simeon Reich</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">Israel Institute of Technology, Israel</p>
+                    <a href="mailto:sreich@technion.ac.il" class="text-blue-600 hover:underline text-xs">sreich@technion.ac.il</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Antonio Francisco Roldan Lopez De Hierro</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">University of Granada, Spain</p>
+                    <a href="mailto:aroldan@ugr.es" class="text-blue-600 hover:underline text-xs">aroldan@ugr.es</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Salvador Romaguera Bonilla</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">IUMPA, Universitat Politècnica de València, Spain</p>
+                    <a href="mailto:sromague@mat.upv.es" class="text-blue-600 hover:underline text-xs">sromague@mat.upv.es</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Naseer Shahzad</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">King Abdul Aziz University, Saudi Arabia</p>
+                    <a href="mailto:nshahzad@kau.edu.sa" class="text-blue-600 hover:underline text-xs">nshahzad@kau.edu.sa</a>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                    <h4 class="font-bold text-slate-900">Jen-Chih Yao</h4>
+                    <p class="text-slate-600 text-xs mt-0.5">China Medical University, Kaohsiung, Taiwan</p>
+                    <a href="mailto:yaojc@math.nsysu.edu.tw" class="text-blue-600 hover:underline text-xs">yaojc@math.nsysu.edu.tw</a>
+                </div>
             </div>
         </div>
 
-        <!-- ฝั่งขวา: Previous Successful Meetings -->
-        <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
-            <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center">
-                <i class="fa-solid fa-clock-rotate-left text-amber-500 mr-3"></i> Previous Successful Meetings
-            </h3>
+        <!-- Organizing & Technical Committee -->
+        <div class="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-slate-200">
+            <h3 class="text-2xl font-bold text-slate-900 mb-6 border-l-4 border-blue-600 pl-3">Organizing & Technical Committee</h3>
             
-            <!-- เส้น Timeline แนวตั้งชิดซ้าย -->
-            <div class="relative border-l-2 border-slate-200 ml-3 space-y-6">
-                
-                <!-- 1st Meeting -->
-                <div class="relative pl-6 group">
-                    <span class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full bg-white border-2 border-slate-400 group-hover:border-blue-600 transition-colors"></span>
-                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider px-2.5 py-0.5 bg-slate-100 text-slate-600 rounded-md">1st Meeting</span>
-                    <h4 class="font-bold text-slate-800 mt-1">
-                        <a href="https://internationalworkshoponnonlinearanalysis.wordpress.com/" target="_blank" class="hover:text-blue-600 hover:underline transition-colors inline-flex items-center">
-                            IWNAA 2018 — Granada, Spain <i class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-1.5 text-slate-400"></i>
-                        </a>
-                    </h4>
-                    <p class="text-sm text-slate-500 mt-0.5">The inaugural workshop setting the foundation for our international research network.</p>
+            <!-- Organizing Committee Members Grid -->
+            <div class="mb-8">
+                <h4 class="text-xs font-bold uppercase tracking-wider text-blue-700 mb-4">Organizing Committee</h4>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 text-sm">
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                        <h5 class="font-bold text-slate-900">Antonio Francisco Roldán López de Hierro</h5>
+                        <p class="text-slate-600 text-xs mt-0.5">University of Granada, Spain</p>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                        <h5 class="font-bold text-slate-900">Juan Martinez-Moreno</h5>
+                        <p class="text-slate-600 text-xs mt-0.5">Universidad de Jaén, Spain</p>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                        <h5 class="font-bold text-slate-900">Ovidiu Bagdasar</h5>
+                        <p class="text-slate-600 text-xs mt-0.5">University of Derby, UK</p>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                        <h5 class="font-bold text-slate-900">Ioannis Sarris</h5>
+                        <p class="text-slate-600 text-xs mt-0.5">University of West Attica, Greece</p>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                        <h5 class="font-bold text-slate-900">Adélio Cavadas</h5>
+                        <p class="text-slate-600 text-xs mt-0.5">Instituto Politécnico de Viana do Castelo, Portugal</p>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                        <h5 class="font-bold text-slate-900">Lalsangzela Sailo</h5>
+                        <p class="text-slate-600 text-xs mt-0.5">Mizoram University, India</p>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                        <h5 class="font-bold text-slate-900">Sakthivel Gnanasekaran</h5>
+                        <p class="text-slate-600 text-xs mt-0.5">Vellore Institute of Technology, India</p>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                        <h5 class="font-bold text-slate-900">Wutiphol Sintunavarat</h5>
+                        <p class="text-slate-600 text-xs mt-0.5">Thammasat University, Thailand</p>
+                    </div>
+                    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100">
+                        <h5 class="font-bold text-slate-900">Jegadeeshwaran R</h5>
+                        <p class="text-slate-600 text-xs mt-0.5">Vellore Institute of Technology, India</p>
+                    </div>
                 </div>
+            </div>
 
-                <!-- 2nd Meeting -->
-                <div class="relative pl-6 group">
-                    <span class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full bg-white border-2 border-slate-400 group-hover:border-blue-600 transition-colors"></span>
-                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider px-2.5 py-0.5 bg-slate-100 text-slate-600 rounded-md">2nd Meeting</span>
-                    <h4 class="font-bold text-slate-800 mt-1">
-                        <a href="https://iwana2019bangkok.wordpress.com/" target="_blank" class="hover:text-blue-600 hover:underline transition-colors inline-flex items-center">
-                            IWANA 2019 — Bangsaen, Thailand <i class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-1.5 text-slate-400"></i>
-                        </a>
-                    </h4>
-                    <p class="text-sm text-slate-500 mt-0.5">Expanding collaboration across Asia and Europe in applied nonlinear analysis.</p>
-                </div>
+            <div class="grid md:grid-cols-2 gap-8 pt-6 border-t border-slate-100">
+                <!-- Leadership & Secretariat -->
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-amber-600 mb-3">ICWANA Chair</h4>
+                        <div class="p-4 rounded-xl bg-amber-50/70 border border-amber-200">
+                            <p class="font-bold text-slate-900 text-base">Poom Kumam</p>
+                            <p class="text-xs text-slate-600 mt-0.5">TaCS-CoE, KMUTT, Thailand</p>
+                        </div>
+                    </div>
 
-                <!-- 3rd Meeting -->
-                <div class="relative pl-6 group">
-                    <span class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full bg-white border-2 border-slate-400 group-hover:border-blue-600 transition-colors"></span>
-                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider px-2.5 py-0.5 bg-slate-100 text-slate-600 rounded-md">3rd Meeting</span>
-                    <h4 class="font-bold text-slate-800 mt-1">
-                        <a href="https://iwana2022.wordpress.com/" target="_blank" class="hover:text-blue-600 hover:underline transition-colors inline-flex items-center">
-                            IWANA 2022 — Bangsaen, Thailand <i class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-1.5 text-slate-400"></i>
-                        </a>
-                    </h4>
-                    <p class="text-sm text-slate-500 mt-0.5">Building momentum with hybrid participation and emerging optimization themes.</p>
-                </div>
-
-                <!-- 4th Meeting -->
-                <div class="relative pl-6 group">
-                    <span class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full bg-white border-2 border-blue-500"></span>
-                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider px-2.5 py-0.5 bg-blue-50 text-blue-700 border border-blue-200 rounded-md">4th Meeting</span>
-                    <h4 class="font-bold text-slate-800 mt-1">
-                        <a href="https://icwana2024.wordpress.com/" target="_blank" class="hover:text-blue-600 hover:underline transition-colors inline-flex items-center">
-                            ICWANA 2024 — Bangsaen, Chonburi, Thailand <i class="fa-solid fa-arrow-up-right-from-square text-[10px] ml-1.5 text-slate-400"></i>
-                        </a>
-                    </h4>
-                    <p class="text-sm text-slate-500 mt-0.5">Transitioned to a full International Conference & Workshop (August 6–8, 2024).</p>
-                </div>
-
-                <!-- 5th Meeting (Upcoming Highlight) -->
-                <div class="relative pl-6">
-                    <span class="absolute -left-[10px] top-3 h-5 w-5 rounded-full bg-amber-400 border-4 border-white ring-2 ring-amber-400/50"></span>
-                    <div class="bg-gradient-to-r from-amber-50/90 to-blue-50/40 p-4 rounded-xl border border-amber-200/80 shadow-sm">
-                        <span class="inline-block text-[11px] font-bold uppercase tracking-wider px-2.5 py-0.5 bg-amber-400 text-slate-950 rounded-md">5th Meeting (Upcoming)</span>
-                        <h4 class="font-bold text-blue-950 text-base mt-1.5">ICWANA 2027 — Pattaya Beach, Thailand</h4>
-                        <p class="text-sm text-slate-700 mt-0.5 font-medium">July 28–31, 2027 | Featuring RISE 5.0 x Erasmus+ EU Meeting.</p>
+                    <div>
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-blue-700 mb-3">Technical Committee Secretary</h4>
+                        <div class="grid sm:grid-cols-2 gap-3">
+                            <div class="p-4 rounded-xl bg-blue-50/60 border border-blue-100">
+                                <p class="font-bold text-slate-900 text-sm">Parin Chaipunya</p>
+                                <p class="text-xs text-slate-600 mt-0.5">KMUTT, Thailand</p>
+                            </div>
+                             <div class="p-4 rounded-xl bg-blue-50/60 border border-blue-100">
+                                <p class="font-bold text-slate-900 text-sm">Nantaporn Chuensupantharat</p>
+                                <p class="text-xs text-slate-600 mt-0.5">BSRU, Thailand</p>
+                            </div>
+                            <div class="p-4 rounded-xl bg-blue-50/60 border border-blue-100">
+                                <p class="font-bold text-slate-900 text-sm">Konrawut Khammahawong</p>
+                                <p class="text-xs text-slate-600 mt-0.5">RMUTT, Thailand</p>
+                            </div>
+                            <div class="p-4 rounded-xl bg-blue-50/60 border border-blue-100">
+                                <p class="font-bold text-slate-900 text-sm">Supak Phiangsungnoen</p>
+                                <p class="text-xs text-slate-600 mt-0.5">RMUTR, Thailand</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Partner Institutions -->
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">Organizing Partners & Research Networks</h4>
+                    <div class="p-5 rounded-xl bg-slate-50 border border-slate-100 space-y-3 text-sm text-slate-700">
+                        <p class="text-xs text-slate-500 mb-2">Hosted in collaboration with leading research centers:</p>
+                        <ul class="space-y-2.5">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-building-columns text-blue-600 mt-1"></i>
+                                <span><strong>Center of Excellence in Theoretical and Computational Science (TaCS-CoE)</strong>, KMUTT, Thailand</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-network-wired text-blue-600 mt-1"></i>
+                                <span><strong>CaRe Network</strong> (ศูนย์เครือข่ายวิจัยนานาชาติ)</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-globe text-blue-600 mt-1"></i>
+                                <span><strong>Working Group on Applied Nonlinear Analysis (WG-ANA)</strong></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
